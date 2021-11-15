@@ -36,27 +36,27 @@
 
 .item-icon {
     margin-left: 16px;
-    width: 23px;
-    height: 23px;
+    width: 20px;
+    height: 20px;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .icon-dashboard {
-    background-image: url('/Resource/icon/dashboard.png');
+    background-image: url('../../icon/dashboard.png');
 }
 
 .icon-report {
-    background-image: url('/Resource/icon/report.png');
+    background-image: url('../../icon/report.png');
 }
 
 .icon-dic-employee {
-    background-image: url('/Resource/icon/dic-employee.png');
+    background-image: url('../../icon/dic-employee.png');
 }
 
 .icon-setting {
-    background-image: url('/Resource/icon/setting.png');
+    background-image: url('../../icon/setting.png');
 }
 
 .item-text {

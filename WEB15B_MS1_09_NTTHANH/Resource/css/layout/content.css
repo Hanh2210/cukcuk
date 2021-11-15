@@ -25,7 +25,7 @@
 }
 
 .addemployee {
-    background-image: url('/Resource/icon/add.png');
+    background-image: url('../../icon/add.png');
 }
 
 .btn {
@@ -62,7 +62,7 @@ input {
 }
 
 input.search {
-    background-image: url('/Resource/icon/search.png');
+    background-image: url('../../icon/search.png');
     background-repeat: no-repeat;
     background-position-y: center;
     background-position-x: 16px;
@@ -149,7 +149,7 @@ table tr:hover {
 #refresh {
     position: absolute;
     right: 24px;
-    background-image: url('/Resource/icon/refresh.png');
+    background-image: url('../../icon/refresh.png');
     background-position: center;
     background-size: 20px;
     padding: 20px 20px 20px 20px;
@@ -161,7 +161,7 @@ table tr:hover {
 #delete {
     position: absolute;
     right: 70px;
-    background-image: url('/Resource/icon/x.svg');
+    background-image: url('../../icon/x.svg');
     background-position: center;
     background-size: 20px;
     padding: 20px;
