@@ -1,0 +1,40 @@
+﻿#header {
+    position: absolute;
+    display: flex;
+    left: 200px;
+    top: 0;
+    right: 0;
+    height: 60px;
+    border-bottom: 1px solid #bbbbbb;
+}
+.text {
+    line-height: 60px;
+    font-weight: bold;
+    height: 60px;
+    width: 185px;
+    margin-right: 10px;
+    border: solid white 1px;
+    margin-left: 1px;
+}
+   
+
+.acount {
+    display: flex;
+    position: absolute;
+    right: 16px;
+}
+
+.image-user {
+    margin-top: 10px;
+   
+}
+
+.name-user {
+    margin-left: 16px;
+    margin-top: 20px;
+    margin-right: 16px;
+}
+
+.add {
+    margin-top: 20px;
+}

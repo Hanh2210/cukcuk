@@ -1,0 +1,65 @@
+﻿#navbar {
+    width: 200px;
+    height: 100vh;
+    border-right: 1px solid #cecbcb;
+}
+
+.logo img {
+    margin-top: 12px;
+}
+
+.toggle {
+    margin-left: 16px;
+    width: 30px;
+}
+
+.cukcuk {
+    margin-left: 10px;
+    width: 120px;
+}
+
+.box {
+    margin-top: 10px;
+}
+
+.box .item {
+    display: flex;
+    align-items: center;
+    height: 44px;
+    padding: 0;
+}
+
+.box .item:hover {
+    background-color: #e5e5e5;
+    cursor: pointer;
+}
+
+.item-icon {
+    margin-left: 16px;
+    width: 23px;
+    height: 23px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon-dashboard {
+    background-image: url('/Resource/icon/dashboard.png');
+}
+
+.icon-report {
+    background-image: url('/Resource/icon/report.png');
+}
+
+.icon-dic-employee {
+    background-image: url('/Resource/icon/dic-employee.png');
+}
+
+.icon-setting {
+    background-image: url('/Resource/icon/setting.png');
+}
+
+.item-text {
+    margin-left: 10px;
+    margin-top: 4px;
+}

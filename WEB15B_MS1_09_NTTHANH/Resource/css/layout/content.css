@@ -1,0 +1,232 @@
+﻿#content {
+    position: absolute;
+    left: 200px;
+    top: 60px;
+    right: 0px;
+    padding: 24px;
+}
+
+.title {
+    display: flex;
+    height: 40px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.title .title-left {
+    color: #000000;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.title .title-right {
+    position: absolute;
+    right: 24px;
+}
+
+.addemployee {
+    background-image: url('/Resource/icon/add.png');
+}
+
+.btn {
+    background-color: #019160;
+    background-position: 16px center;
+    height: 40px;
+    padding-right: 16px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+button:focus {
+    outline: 0;
+}
+
+.addcustomer:active {
+    background-color: #01B075;
+}
+
+input {
+    height: 40px;
+    width: 245px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 4px;
+    border: 1px solid #bbbbbb;
+    outline: none;
+    box-sizing: border-box;
+    margin-right: 10px;
+}
+
+input.search {
+    background-image: url('/Resource/icon/search.png');
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 16px;
+    background-size: 20px;
+    padding-left: 40px;
+}
+
+input:hover {
+    border-color: #019160;
+}
+
+select {
+    height: 40px;
+    width: 220px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 4px;
+    border: 1px solid #bbbbbb;
+    outline: none;
+    box-sizing: border-box;
+    margin-right: 10px;
+}
+
+.table-employee {
+    overflow-y: auto;
+    position: absolute;
+    top: 135px;
+    height: 350px;
+    width: 96%;
+}
+
+table tr {
+    border-bottom: 1px solid #bbb;
+    height: 48px;
+}
+
+table tr:nth-child(odd) {
+    background-color: #e9ebee;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table thead th {
+    text-align: left;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    border-bottom: 1px solid #bbb;
+    box-shadow: 0 1px 1px -1px #bbb;
+}
+
+table thead {
+    border-bottom: 1px solid #bbb;
+}
+
+th,
+td {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+th:first-child,
+th:last-child,
+td:first-child,
+td:last-child {
+    padding-left: 16px;
+}
+
+table tr {
+    cursor: pointer;
+}
+
+table tr:hover {
+    background-color: #f0f0f0;
+}
+
+.department,
+.position {
+    width: 180px;
+}
+
+#refresh {
+    position: absolute;
+    right: 24px;
+    background-image: url('/Resource/icon/refresh.png');
+    background-position: center;
+    background-size: 20px;
+    padding: 20px 20px 20px 20px;
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+    background-repeat: no-repeat;
+}
+
+#delete {
+    position: absolute;
+    right: 70px;
+    background-image: url('/Resource/icon/x.svg');
+    background-position: center;
+    background-size: 20px;
+    padding: 20px;
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+    background-repeat: no-repeat;
+}
+
+.paging {
+    position: absolute;
+    top: 500px;
+    height: 60px;
+    left: 24px;
+    right: 24px;
+}
+
+#content .paging-bar {
+    height: 56px;
+}
+
+.paging-bar {
+    border-top: 1px solid #bbbbbb;
+    /* position: relative; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 16px;
+    z-index: 1 !important;
+}
+
+.btn-pagenumber.btn-pagenumber-selected,
+.btn-pagenumber-selected:hover {
+    background-color: #019160;
+    color: #ffffff;
+}
+
+.btn-pagenumber {
+    width: 30px;
+    height: 30px;
+    margin: 0 4px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    background-color: #e9ebee;
+    cursor: pointer !important;
+}
+
+.paging-bar .paging-record-info {
+    position: absolute;
+    left: 16px;
+}
+
+.paging-bar .paging-record-option {
+    position: absolute;
+    right: 16px;
+}
+
+.paging-option {
+    margin-top: 5px;
+    display: flex;
+}
+
+.btn-select-page {
+    margin-top: 5px;
+}
+
+.selected {
+    background-color: #f0f0f0;
+}

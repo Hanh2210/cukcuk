@@ -1,0 +1,131 @@
+﻿.dialog {
+    height: 400px;
+}
+
+.dialog .dialog-background {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #000000;
+        opacity: .5;
+ }
+
+.dialog-body {
+    margin-top: 50px;
+}
+
+hr {
+    background-color: #019160;
+    margin-left: 1px;
+    width: 100px;
+    height: 2px;
+}
+.dialog .dialog-content {
+    padding: 24px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 690px;
+    height: 700px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    padding-bottom: 80px;
+}
+
+.dialog-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.dialog-close {
+    padding: 8px 12px;
+    font-size: 20px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 0 4px 0 4px;
+}
+
+.dialog-close:hover {
+    background-color: #e5e5e5;
+}
+
+.image-user img {
+    position: relative;
+    border: 1px solid #bbbbbb;
+    border-radius: 50%;
+}
+
+.info-user {
+    position: absolute;
+    left: 210px;
+    right: 12px;
+    top: 70px;
+}
+
+.item-user {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.col {
+    width: 50%;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+select {
+    width: 245px;
+}
+
+.dialog-footer {
+    position: absolute;
+    background-color: #e5e5e5;
+    height: 60px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    display: flex;
+    
+}
+
+.save, .cancel {
+    position: absolute;
+    right: 24px;
+    margin-top: 10px;
+    background-color: #019160;
+    background-position: 16px center;
+    height: 40px;
+    padding-right: 24px;
+    background-repeat: no-repeat;
+    padding-left: 24px;
+    border: 1px solid rgb(228, 228, 228);
+    border-radius: 4px;
+    color: #ffffff;
+    cursor: pointer;
+    text-align: center;
+    line-height: 40px;
+}
+
+.cancel{
+    position: absolute;
+    right: 120px;
+    margin-top: 10px;
+    background-color: #808080;
+    background-position: 16px center;
+    height: 40px;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    color: #ffffff;
+    cursor: pointer;
+    text-align: center;
+    line-height: 40px;
+}
